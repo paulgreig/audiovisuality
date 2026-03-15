@@ -1,0 +1,12 @@
+# See https://golangci-lint.run/docs/configuration/file
+version: "2"
+run:
+  timeout: 5m
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+issues:
+  exclude-use-default: false

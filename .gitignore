@@ -1,0 +1,19 @@
+# Binary
+audiovisual
+*.exe
+
+# Go
+*.test
+*.out
+go.work
+coverage.html
+coverage.out
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local project files (optional; remove if you want to track them)
+*.avproj.local
